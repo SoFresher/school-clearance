@@ -1,0 +1,51 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+.navItem a {
+    color: black !important;
+    font-weight: bolder;
+    line-height: 2;
+}
+.navItem a:hover{
+    color: gray !important;
+}
+.navbar {
+    background:white;
+}
+.navbar-brand img {
+    width: 40px;
+    height: auto;
+}
+body {
+    background:white;
+    margin: 0 0 100px;
+}
+.mainLogo {
+    margin-top: 30px;
+}
+form input {
+	width: 80%;
+	height: 35px !important;
+}
+#allInput input {
+	text-align: center;
+}
+.mainFooter {
+	position: absolute;
+	color: grey;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	overflow: hidden;
+}
+.btn-default {
+	position: relative;
+	left: 35%;
+}
+.danger {
+	color: red;
+}
+.approved {
+	color: green;
+}
